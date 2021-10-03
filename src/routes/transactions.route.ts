@@ -1,4 +1,5 @@
 import { Router } from 'express';
+
 import TransactionsController from '@controllers/transactions.controller';
 import { CreateTransactionDto } from '@dtos/transactions.dto';
 import { Routes } from '@interfaces/routes.interface';

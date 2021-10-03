@@ -1,4 +1,5 @@
 import { Router } from 'express';
+
 import BalancesController from '@/controllers/balances.controller';
 import { CreateBalanceDto } from '@dtos/balances.dto';
 import { Routes } from '@interfaces/routes.interface';
